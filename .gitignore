@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data (large files — add selectively)
+data/raw/*.csv
+data/processed/*.csv
+data/exports/*.csv
+*.db
+
+# Model artifacts
+reports/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Excel large files
+excel/*.xlsx
